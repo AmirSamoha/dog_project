@@ -103,3 +103,6 @@ footer{
     right: 0%;
    
 }
+input{
+    max-width: 500px;
+}
