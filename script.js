@@ -31,7 +31,7 @@ if (sessionStorage.getItem("login_active") === "true"){
   document.getElementById("btn_log_sign").style.display = "none";
 
   $(document).ready(function () {
-    $(".navbar").prepend(`<button class="btn btn-primary me-md-2" type="button" id="btn_logout" onclick="deleteItems(); redirect('log_register/index.html')"> Log Out </button>`)
+    $(".navbar").prepend(`<button class="btn btn-primary me-md-2" type="button" id="btn_logout" onclick="deleteItems(); redirect('doginfo/log_register/index.html')"> Log Out </button>`)
     $("#btn_logout").css({"font-size": "12px"})
   });
 

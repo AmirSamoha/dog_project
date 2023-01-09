@@ -16,7 +16,7 @@ async function login_data() {
           sessionStorage.setItem(
             "text_value",
             document.getElementById("user").value);
-          location.assign("../index.html");
+          location.assign("../../index.html");
           
         }
       }
