@@ -73,15 +73,15 @@ img{
 }
  
 #fixed{
-    width: 600px;
-    height: 300px;
+    width: 500px;
+    height: 250px;
     position: absolute;
-    top: 160%;
+    top: 170%;
     right: 0%;
 }
 #ifr{
     position: absolute;
-    top: 21%;
+    top: 27.8%;
     right: 0%;
 }
 footer{
